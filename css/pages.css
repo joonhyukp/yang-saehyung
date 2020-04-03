@@ -1,0 +1,65 @@
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+main img{
+  width: 100%;
+  display: block;
+}
+
+.videoContainer{
+  position: relative;
+}
+main video{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.videoLabel{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.fixedTopCallButton{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  background-color: rgb(67, 144, 182);
+}
+.fixedTopCallButton a{
+  color: #fff;
+}
+
+.fixedBottomLinkButton{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 800px;
+  background-color: rgb(88, 88, 88);
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #cccccc;
+}
